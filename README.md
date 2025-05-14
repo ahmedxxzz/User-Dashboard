@@ -128,17 +128,3 @@ Elbahgy-dashboard/
     *   Open any of the `.html` files (e.g., `index.html`) directly in your web browser.
     *   No compilation or build step is required as it's a static HTML/CSS project.
 
-## Screenshots (Placeholder)
-
-*(Consider adding a few screenshots here to showcase the UI of different pages, e.g., Dashboard, Profile, Settings.)*
-
-*   **Dashboard Page:**
-    `[Image of index.html]`
-*   **Profile Page:**
-    `[Image of profile.html]`
-*   **Settings Page:**
-    `[Image of settings.html]`
-
-## License
-
-This project is likely for educational purposes as part of the Pecoden Team curriculum. No explicit license is provided in the files. If you intend to use or distribute this code, it's recommended to respect the original author's intent or add an appropriate open-source license if you are extending it for public use.
