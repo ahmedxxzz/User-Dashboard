@@ -10,8 +10,7 @@ A responsive, multi-page HTML & CSS dashboard template designed by Pecoden Team.
 4.  [File Structure](#file-structure)
 5.  [Technologies Used](#technologies-used)
 6.  [How to Use](#how-to-use)
-7.  [Screenshots (Placeholder)](#screenshots-placeholder)
-8.  [License](#license)
+
 
 ## Overview
 
