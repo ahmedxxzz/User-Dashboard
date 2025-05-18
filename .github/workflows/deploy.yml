@@ -1,0 +1,23 @@
+name: Deploy Static Site with Docker
+
+on:
+  push:
+    branches:
+      - main  # أو أي فرع بتشتغل عليه
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build Docker image
+        run: docker build -t my-static-site .
+
+      - name: Run container (اختياري للاختبار فقط)
+        run: docker run -d -p 80:80 my-static-site
